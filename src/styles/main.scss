@@ -1,3 +1,50 @@
 body {
   margin: 0;
 }
+
+// #region header
+
+.header {
+  padding: 24px 20px 88px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../images/header-bg.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+// #endregion
+
+// #region icon
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(../images/icons/icon-phone.png);
+}
+
+.icon--menu {
+  background-image: url(../images/icons/icon-burger-menu.png);
+  background-size: cover;
+  background-position: center;
+}
+
+// #endregion
